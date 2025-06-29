@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechnoSpark Newsroom</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background: #2c3e50;
+      color: #ecf0f1;
+      padding: 30px;
+      text-align: center;
+    }
+    .container {
+      max-width: 950px;
+      margin: auto;
+      padding: 20px;
+    }
+    article {
+      background: #fff;
+      margin: 30px 0;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    article h2 {
+      margin-top: 0;
+    }
+    .tagline {
+      font-style: italic;
+      color: #95a5a6;
+    }
+    .truth {
+      display: none;
+      font-weight: bold;
+      margin-top: 15px;
+      color: #2c3e50;
+    }
+    .reveal-btn {
+      display: block;
+      margin: 40px auto;
+      padding: 12px 30px;
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🧠 TechnoSpark Newsroom</h1>
+  <p class="tagline">Where Truth & Satire Blur — Can You Guess What’s Real?</p>
+</header>
+
+<div class="container">
+
+  <!-- REAL NEWS ARTICLES -->
+  <article>
+    <h2>🏛️ Karnataka: Shivakumar Might Take Over CM Seat… “Soon™”</h2>
+    <p><strong>Date:</strong> June 28, 2025</p>
+    <p>A Congress MLA hints that D.K. Shivakumar could be Karnataka’s next CM in “2–3 months.” Because what’s Indian politics without vague timelines and backdoor whispers?</p>
+    <p class="truth">✅ This article is REAL.</p>
+  </article>
+
+  <article>
+    <h2>🗳️ Bihar Voter Roll Panic: Citizenship Proof Required</h2>
+    <p><strong>Date:</strong> June 28, 2025</p>
+    <p>Election officials in Bihar now require post-2003 voters to submit birth and citizenship certificates. Midnight Aadhaar hunts just got a sequel.</p>
+    <p class="truth">✅ This article is REAL.</p>
+  </article>
+
+  <article>
+    <h2>🛡️ Rajnath at SCO: Border Talks & Terror Tantrums</h2>
+    <p><strong>Date:</strong> June 28, 2025</p>
+    <p>In Qingdao, Defence Minister Rajnath Singh called for a “permanent solution” to the India-China border issue while sidestepping a joint statement seen as pro-Pakistan.</p>
+    <p class="truth">✅ This article is REAL.</p>
+  </article>
+
+  <!-- FAKE / SATIRICAL ARTICLES -->
+  <article>
+    <h2>🎲 BREAKING: Politicians Agree to Solve Budget Crisis with Game of Ludo</h2>
+    <p><strong>Date:</strong> June 29, 2025</p>
+    <p>After hours of gridlock, politicians from BJP, Congress, and AAP decided to play Ludo to settle the national budget. The tournament was livestreamed, and memes followed instantly.</p>
+    <p class="truth">❌ This article is FAKE.</p>
+  </article>
+
+  <article>
+    <h2>🤖 Congress Launches AI Tool to Translate Pappu Gandhi Speeches</h2>
+    <p><strong>Date:</strong> June 29, 2025</p>
+    <p>Congress unveils an AI speech translator for Pappu Gandhi that converts his addresses into memes, emojis, and “understandable language.”</p>
+    <p class="truth">❌ This article is FAKE.</p>
+  </article>
+
+  <article>
+    <h2>🧣 Muffler King Introduces New Muffler with Built-in Air Purifier</h2>
+    <p><strong>Date:</strong> June 29, 2025</p>
+    <p>Delhi CM launches a “smart muffler” that doubles as an air purifier. It sold out in 4 hours, mostly to meme page admins and political satire fans.</p>
+    <p class="truth">❌ This article is FAKE.</p>
+  </article>
+
+  <article>
+    <h2>🕹️ All Parties Agree to Debate Policy Over a Friendly Game of PUBG</h2>
+    <p><strong>Date:</strong> June 29, 2025</p>
+    <p>In a historic moment of digital diplomacy, party leaders dropped into Erangel to discuss policies. Final vote decided by pan fight.</p>
+    <p class="truth">❌ This article is FAKE.</p>
+  </article>
+
+  <button class="reveal-btn" onclick="revealTruths()">Click to Reveal the Truth</button>
+</div>
+
+<footer>
+  <p>Made by Team TechnoSpark – For Creative Educational Use Only</p>
+</footer>
+
+<script>
+  function revealTruths() {
+    const truths = document.querySelectorAll('.truth');
+    truths.forEach(item => item.style.display = 'block');
+  }
+</script>
+
+</body>
+</html>
